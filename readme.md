@@ -157,4 +157,4 @@ Do following in browser at the above URL
 
 # Project Link 
 
-<https://github.com/AnandaD-source/ADKCapstone.git>
+<https://github.com/AnandaD-source/ADKCapstone>
