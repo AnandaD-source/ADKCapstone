@@ -6,9 +6,6 @@ __pycache__/
 # Virtual environment
 .venv/
 
-# Env file / Secrets
-.env
-
 # IDE
 .vscode/
 .idea/
