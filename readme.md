@@ -23,19 +23,17 @@ Automation of baseline calculations would reduce manual efforts, improve accurac
 
 The agentic solution involves creating composable architecture of hierarchy of various autonomous agents using google ADK to perform these steps. The solution is such that it can be extended to introduce newer agents to handle different flavours of energy baseline. Additionally complete automation of data and analytics pipeline is possible. Thus, it is possible to quickly configure a custom baseline solution to cater to exact requirements of a specific facility/building.
 
-Google ADK makes it easy to quickly convert a PoC into production grade solution by implementing observability, evaluating the solution and easy deployment
-
 ## Architecture
 
 ![Agentic Architecture](img/architecture.png)
 
-The actor in this use case is a facility/building manager who is responsible for calculating baseline and report savings. The baseline agent is a fundamental building block of the energy optimization, measurement and reporting process. At high level baseline creation involves following steps
+The actor in this use case is a facility/building manager who is responsible for calculating baseline and report savings. The baseline agent is the fundamental building block of the energy optimization, measurement and reporting process. At high level baseline creation involves following steps
 
 - Taking and validating user input
 - Execute Data Pipeline
 - Execute regression pipeline
 
-These steps have been implemented by bunch of agents assigned with specific responsibilities. The baseline agent has been implemented as per modern multi agent architecture using Google ADK
+These steps have been implemented by bunch of agents assigned with specific responsibilities. The baseline agent has been implemented as per multi agent architecture pattern using Google ADK
 
 ### Coordinating baseline creation flow (coordinator_agent)
 
