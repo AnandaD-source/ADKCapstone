@@ -1,0 +1,152 @@
+{
+  "eval_set_id": "evalset377618",
+  "name": "evalset377618",
+  "eval_cases": [
+    {
+      "eval_id": "case64d995",
+      "conversation": [
+        {
+          "invocation_id": "e-2dcdd22f-2706-4a7e-bc4f-ee00553284ee",
+          "user_content": {
+            "parts": [
+              {
+                "text": "give energy consumption data for last 2 days"
+              }
+            ],
+            "role": "user"
+          },
+          "final_response": {
+            "parts": [
+              {
+                "text": "{\"daily_records\": [{\"record_date\": \"2024-05-14\", \"consumption_kwh\": 38.5}, {\"record_date\": \"2024-05-13\", \"consumption_kwh\": 41.2}]}"
+              }
+            ],
+            "role": "model"
+          },
+          "intermediate_data": {},
+          "creation_timestamp": 1763971762.011972
+        },
+        {
+          "invocation_id": "e-c30eb668-294b-46c0-af7a-b54363d23fb4",
+          "user_content": {
+            "parts": [
+              {
+                "text": "Give energy data for date range 2025-11-20 to 2025-11-23"
+              }
+            ],
+            "role": "user"
+          },
+          "final_response": {
+            "parts": [
+              {
+                "text": "{\"daily_records\": [{\"record_date\": \"2025-11-20\", \"consumption_kwh\": 34.5}, {\"record_date\": \"2025-11-21\", \"consumption_kwh\": 29.8}, {\"record_date\": \"2025-11-22\", \"consumption_kwh\": 31.2}, {\"record_date\": \"2025-11-23\", \"consumption_kwh\": 28.7}]}"
+              }
+            ],
+            "role": "model"
+          },
+          "intermediate_data": {},
+          "creation_timestamp": 1763971876.878367
+        }
+      ],
+      "session_input": {
+        "app_name": "consumptiondata_agent",
+        "user_id": "user"
+      },
+      "creation_timestamp": 1763971976.0132005
+    },
+    {
+      "eval_id": "case7226dd",
+      "conversation": [
+        {
+          "invocation_id": "e-94615d0b-5c5a-4722-94cf-ac0935bf64c9",
+          "user_content": {
+            "parts": [
+              {
+                "text": "Generate energy consumption data between 10-Nov-2025 to 14-Nov-2025"
+              }
+            ],
+            "role": "user"
+          },
+          "final_response": {
+            "parts": [
+              {
+                "text": "LLM call was blocked. The message must contain exactly two dates in the past."
+              }
+            ],
+            "role": "model"
+          },
+          "intermediate_data": {},
+          "creation_timestamp": 1763996630.028393
+        }
+      ],
+      "session_input": {
+        "app_name": "consumptiondata_agent",
+        "user_id": "user"
+      },
+      "creation_timestamp": 1763996712.05471
+    },
+    {
+      "eval_id": "case585e63",
+      "conversation": [
+        {
+          "invocation_id": "e-94615d0b-5c5a-4722-94cf-ac0935bf64c9",
+          "user_content": {
+            "parts": [
+              {
+                "text": "Generate energy consumption data between 10-Nov-2025 to 14-Nov-2025"
+              }
+            ],
+            "role": "user"
+          },
+          "final_response": {
+            "parts": [
+              {
+                "text": "LLM call was blocked. The message must contain exactly two dates in the past."
+              }
+            ],
+            "role": "model"
+          },
+          "intermediate_data": {},
+          "creation_timestamp": 1763996630.028393
+        }
+      ],
+      "session_input": {
+        "app_name": "consumptiondata_agent",
+        "user_id": "user"
+      },
+      "creation_timestamp": 1763996735.6862488
+    },
+    {
+      "eval_id": "caseef3350",
+      "conversation": [
+        {
+          "invocation_id": "e-94615d0b-5c5a-4722-94cf-ac0935bf64c9",
+          "user_content": {
+            "parts": [
+              {
+                "text": "Generate energy consumption data between 10-Nov-2025 to 14-Nov-2025"
+              }
+            ],
+            "role": "user"
+          },
+          "final_response": {
+            "parts": [
+              {
+                "text": "LLM call was blocked. The message must contain exactly two dates in the past."
+              }
+            ],
+            "role": "model"
+          },
+          "intermediate_data": {},
+          "creation_timestamp": 1763996630.028393
+        }
+      ],
+      "session_input": {
+        "app_name": "consumptiondata_agent",
+        "user_id": "user"
+      },
+      "creation_timestamp": 1763996751.8153648
+    }
+  ],
+  "creation_timestamp": 1763971967.466237
+}
